@@ -78,9 +78,9 @@ export function getStepDefinitionPatternsPost10(
 ): string[] {
   const projectRoot = configuration.cypress.projectRoot;
 
-  if (!isPathInside(filepath, projectRoot)) {
-    throw new Error(`${filepath} is not inside ${projectRoot}`);
-  }
+//   if (!isPathInside(filepath, projectRoot)) {
+//     throw new Error(`${filepath} is not inside ${projectRoot}`);
+//   }
 
   const filepathReplacement = trimFeatureExtension(
     path.relative(
