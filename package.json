@@ -14,21 +14,21 @@
     "cypress-preprocessor"
   ],
   "bin": {
-    "cypress-cucumber-diagnostics": "lib/diagnostics/index.js"
+    "cypress-cucumber-diagnostics": "lib/diagnostics/index.ts"
   },
-  "main": "lib/index.js",
+  "main": "lib/index.ts",
   "types": "lib/index.d.ts",
-  "browser": "methods.js",
+  "browser": "methods.ts",
   "files": [
-    "lib/**/*.js",
+    "lib/**/*.ts",
     "lib/**/*.d.ts",
-    "browserify.js",
+    "browserify.ts",
     "browserify.d.ts",
-    "esbuild.js",
+    "esbuild.ts",
     "esbuild.d.ts",
-    "methods.js",
+    "methods.ts",
     "methods.d.ts",
-    "webpack.js",
+    "webpack.ts",
     "webpack.d.ts"
   ],
   "scripts": {
